@@ -61,8 +61,6 @@ class Owner
         ind.mood = "nervous"
       end
     end
-  end
-    pets
     pets.clear
   end
 
