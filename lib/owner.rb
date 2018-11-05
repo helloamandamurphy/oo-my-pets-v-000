@@ -32,7 +32,8 @@ class Owner
   end 
   
   def buy_fish
-    Fish.initialize(name, mood = "nervous")
+    fish = Fish.new(name)
+    
   end
   
   def buy_cat
