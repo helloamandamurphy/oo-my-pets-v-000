@@ -36,12 +36,11 @@ class Owner
   end
   
   def buy_cat(name)
-    
+    pets[:cats] << Cat.new(name)
   end
 
   def buy_dog
-    Dog.initialize(name, mood = "nervous")
-    
+    pets[:dogs] << Dog.new(name)
   end
 
   def walk_dogs
